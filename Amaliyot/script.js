@@ -40,12 +40,12 @@ function setFavouriteSeries() {
 }
 
 function detectingLevel() {
-	if (numberOfSeries < 5) {
-		console.log('Kam serial ko’ripsiz')
-	} else if (numberOfSeries >= 5 || numberOfSeries <= 10) {
-		console.log('Siz classik tamoshabin ekansiz')
-	} else if (numberOfSeries > 10) {
+	if (numberOfSeries > 10) {
 		console.log('Siz serialchi zvezda ekansiz')
+	} else if (numberOfSeries >= 5) {
+		console.log('Siz classik tamoshabin ekansiz')
+	} else if (numberOfSeries < 5) {
+		console.log('Kam serial ko’ripsiz')
 	}
 }
 
